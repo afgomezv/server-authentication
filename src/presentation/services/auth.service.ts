@@ -6,7 +6,7 @@ import {
   RegisterUserDto,
   UserEntity,
 } from "../../domain";
-import { EmailService } from "./email.services";
+import { EmailService } from "./email.service";
 
 export class AuthService {
   //DI
